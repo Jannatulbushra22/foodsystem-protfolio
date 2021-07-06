@@ -50,9 +50,10 @@
 
     <section class="our-menu">
 
-        <div>
-            <h1><span class="blue-color">Our Menu</span></h1>
-            <p>This is the menu section. You can find different type of good food options here.You can select any type
+        <div id="alignment">
+            <h2><span class="blue-color">Our Menu</span></h2>
+            <p>This is the menu section. You can find different type of good food options here. <br>
+                You can select any type
                 of good food you like from this section.</p>
         </div>
 
@@ -80,7 +81,7 @@
             </div>
 
             <div class="food-item half-width">
-                <img src="images/breakfast.png" alt="">
+                <img src="images/setfood.png" alt="">
                 <h3>Breakfast Item</h3>
                 <p>
                     Breakfast is the supper taken subsequent to ascending from a night's rest, regularly eaten in
@@ -94,14 +95,75 @@
 
     </section>
 
+    <section>
+        <div>
+
+            <table>
+                <tr>
+                    <th>Food Item</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/breakfast.png" alt="">
+                            <div>
+                                <p>Bread</p>
+                                <small>Price: $25.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$25.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/soup.png" alt="">
+                            <div>
+                                <p>Soup</p>
+                                <small>Price: $50.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$100.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$120.00</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+
     <footer>
         <h2><span class="blue-color">Food</span> Factory</h2>
         <p>
             Let food be thy medicine and medicine be thy food.
         </p>
     </footer>
-
-
 
 </body>
 
