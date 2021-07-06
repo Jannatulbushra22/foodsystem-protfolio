@@ -35,11 +35,11 @@ h1{
     background-size: 100% 100%;
 }
 .food-item{
-    width: 80%;
+    width: 60%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
-    padding: 25px;
+    padding: 15px;
     box-shadow: 10px 10px 40px gray;
 }
 .food-item img{
@@ -64,7 +64,7 @@ table{
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: right;
-    padding: 40px;
+    padding: 37px;
     
 }
 .cart-info{
@@ -90,15 +90,15 @@ td input{
     text-decoration: none;
 }
 td img{
-    width: 80px;
+    width: 100px;
     height: 80px;
     margin-right: 10px;
 }
-.total-price{
+#total-price{
     display: flex;
     justify-content: flex-end;
 }
-.total-price table{
+#total-price table{
     border-top: 3px solid rebeccapurple;
     width: 100%;
     max-width: 350px;
