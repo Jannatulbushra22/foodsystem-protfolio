@@ -1,0 +1,36 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+    background-color: rgb(236, 247, 252);
+}
+h1{
+    font-size: 50px;
+}
+.blue-color{
+    color: blue;
+}
+.flexible-container{
+    display: flex;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, lightblue);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.background{
+    background-image: url(images/Frame.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
